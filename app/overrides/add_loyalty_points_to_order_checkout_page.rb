@@ -18,7 +18,7 @@ Deface::Override.new(virtual_path: 'spree/shared/_order_details',
       <tfoot id='loyalty_points'>
         <tr id='loyalty-points-row'>
           <td></td>
-          <td colspan='4' class='total'><b><%= link_to 'Sign up now', spree.signup_path %></b> to enjoy receive Mini Points from purchases!</td>
+          <td colspan='4' class='total'><b><%= link_to 'Sign up now', spree.signup_path %></b> to receive Mini Points from purchases!</td>
         </tr>
       </tfoot>
     <% end %>
